@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario de pedido de pasteles</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/reserva.css">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">       
+    </head>
+    <body>
+        <header> 
+        <div class="logo"><img src="img/logo.png" width="150"> </div>
+        <h2 class="titulo">CINE ITO</h2>
+    </header>
+        <form method ="get" action="captura.php">
+        <table>
+            <tr>
+                <td>
+                    <label for="txtNombre">Nombre Completo:</label>
+                </td>
+                <td>
+                    <input type="text" id="idNombre" name="txtNombre" autofocus required/>
+                </td>
+            </tr>
+            <tr>
+            </tr> 
+            <tr>
+                <td>
+                     <label for="txtNum">Cantidad de boletos</label>
+                </td>
+                <td>
+                    <input type="number" id="idNum" name="txtNum" min="1" max="10"/>
+                </td> 
+                <td>
+            </tr> 
+            <tr>
+                <td>
+                    <label for="txtFecha">Fecha y hora de la función</label>
+                </td>
+                <td>
+                    <input type="date" id="idFecha" name="txtFecha">
+                     <input type="time" id="idhr" name="txtHr">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                      <label for="asiento">Numero de asiento </label>
+                </td>
+                <td>
+                    <input id="number" type="number" min="1" max="35"/>
+
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                 <input type="submit" value="Enviar" name="ntnEnviar" />    
+                </td>
+                <td>
+                <button type="reset" value="Limpiar" name="ntnLimpiar" />Limpiar Formulario</button>  
+                </td>
+            </tr>
+        </table>
+    </form>  
+   </body>
+</html>

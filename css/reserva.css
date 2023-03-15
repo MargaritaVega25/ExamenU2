@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+html {
+    background: #D27685 ;
+    scroll-behavior: smooth;
+    font-family: 'Manrope', sans-serif;
+    font-size: 
+}
+header {
+    text-decoration-color: chocolate;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+    background: #37306B ;
+     margin: 0; 
+    padding: 20px; 
+}
+.titulo {
+    font-family: 'Arial', sans-serif;
+    font-size: xx-large;
+    margin-right: 300px;
+ 
+}
+
+.logo{
+ display: block;
+ margin: 0 auto;
+
+}
+
+form {
+    margin: 0 auto;
+    width: 50%;
+}
+
+label {
+    display: block;
+    margin: .5em 0 0 0;
+    text-align: center;
+}
+
+.btn {
+    display: block;
+    margin: 1em 0;
+    width: 110px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.form{
+    text-align: center;
+}
+
+/* Paleta de colores
+#37306B Azul marino Fuerte
+#66347F Morado
+#9E4784 MAgenta
+#D27685 Rosa
+*/
