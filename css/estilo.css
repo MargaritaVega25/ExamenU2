@@ -44,9 +44,35 @@ h2 {
     list-style: none;
     padding: 0;
     width: 15%;
+    float: left;
+    display: table;
+
+}div#contenedor {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
 }
+ 
+section {
+  float: left;
+  width: 70%;
+}
+ 
+.aside {
+  float: left;
+  width: 25%;
+  margin-left: 1%;
+}
+table{
+    float: center;
+    width: 100%;
+    margin-left: -90px;
+    display:flex;
+    text-align: center;
+    justify-content: space-between;     
 
-
+}
 
 footer{
     text-align: center;

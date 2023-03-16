@@ -6,28 +6,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-         <a href="reserva.html"> Regresar a la reserva de boletos</a>
-         <br>
-         <h4>Datos transmitidos ($_REQUEST)</h4>
-        <?php
-            echo"<br>";
-            foreach ($_REQUEST as $llave=>$valor){
-                echo $llave." ".$valor."<br>";
-            }
-        ?>
+         <a href="index.html"> Regresar a inicio</a>
         <br><br>
-        <h4>Datos con caso GET</h4>
+        <h4>RESERVA REALIZADA</h4>
         <?php
         foreach ($_GET as $llave=>$valor){
             echo $llave." ".$valor."<br>";
         }
-        ?>
-        <br><br>
-        <h4>Datos con caso POST</h4>
-        <?php
-        foreach ($_POST as $llave=>$valor){
-            echo $llave." ".$valor."<br>";
-        }
-        ?>     
+        ?>   
     </body>
 </html>
